@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemones</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="pokedex-container">
+    <div class="pokedex">
+      <div class="pokemon-info">
+        <h1 id="pokemon-number">#000</h1>
+        <h2 id="pokemon-name">Nombre del Pokemon</h2>
+        <img id="pokemon-image" src="" alt="Pokemon">
+        <button id="shiny-button">Mostrar Shiny</button>
+        <p id="pokemon-description"></p>
+      </div>
+      <div class="pokemon-stats">
+        <h3>Características</h3>
+        <div id="pokemon-stats-list"></div>
+      </div>
+      <div class="pokemon-evolution">
+        <h3>Evoluciones</h3>
+        <div id="evolution-chain"></div>
+      </div>
+      <div class="controls">
+        <button id="prev-button">Anterior</button>
+        <button id="next-button">Siguiente</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
